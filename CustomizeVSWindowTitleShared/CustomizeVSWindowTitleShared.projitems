@@ -25,7 +25,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)GlobalSuppressions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Guids.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Lib\TfsHelper.cs" />
+    <None Include="$(MSBuildThisFileDirectory)Lib\TfsHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Lib\UtilsExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Lib\Wildcard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Lib\WorkspaceInfoGetter.cs" />
@@ -43,7 +43,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Resolvers\StartupProjectNamesResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resolvers\SvnResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resolvers\TagResolver.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Resolvers\TfsBranchResolver.cs" />
+    <None Include="$(MSBuildThisFileDirectory)Resolvers\TfsBranchResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resolvers\TfsWorkspaceResolver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SettingsOverridesControl.cs">
       <SubType>UserControl</SubType>
