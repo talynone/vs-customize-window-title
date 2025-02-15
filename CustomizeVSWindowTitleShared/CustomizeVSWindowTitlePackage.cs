@@ -146,7 +146,12 @@ namespace ErwinMayerLabs.RenameVSWindowTitle {
         }
 
         protected override void Dispose(bool disposing) {
-            this.ResetTitleTimer.Dispose();
+            
+            if (this.ResetTitleTimer != null)
+            {
+                this.ResetTitleTimer.Dispose();
+            }
+           
             base.Dispose(disposing: disposing);
         }
 
